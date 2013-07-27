@@ -5,7 +5,7 @@ octopress socialink plugin
 
 Place the socialink.rb in your `~/octopress/plugin/` dir.
 
-## Useage
+## Usage
 
 ```ruby
 {% sl social handle %}
