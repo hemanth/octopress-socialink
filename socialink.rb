@@ -19,8 +19,10 @@ module Jekyll
           "fl" => "http://www.flickr.com/people/",
 	  "gh" => "https://github.com/"
         }
-        link = links[@social] + @handle
-        "<a href='#{link}'>#{@handle}</a>"
+	if links.has_key?(@social)
+          link = links[@social] + @handle
+          "<a href='#{link}'>#{@handle}</a>"
+        end
       else
         "Error processing input, expected syntax: {% sl social handle %}"
       end
