@@ -14,7 +14,7 @@ module Jekyll
 	links = {
           "fb" => "https://facebook.com/", 
           "tw" => "https://twitter.com/",
-          "in" => "http://inkedin.com/in/",
+          "in" => "http://linkedin.com/in/",
           "gp" => "http://profiles.google.com/",
           "fl" => "http://www.flickr.com/people/",
 	  "gh" => "https://github.com/"
